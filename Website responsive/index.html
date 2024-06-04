@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website responsive</title>
+    <!-- google icon -->
+    <!-- font awesome -->
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo">Charity<span>DONATION</span>.</a>
+      <div class="navbar-nav">
+        <ul>
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Services</a>
+          <a href="#contact">Contact Us</a>
+          <li id="liMasuk">
+            <a href="#"
+              ><i data-feather="log-in" class="login"></i>Masuk/Daftar</a
+            >
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="login.html">Masuk</a></li>
+                <li><a href="daftar.html">Daftar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="liUser">
+            <a href="#"><i data-feather="user" class="login"></i>User</a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="history.html">History</a></li>
+                <li id="liLogout">
+                  <a href="login.html"><i data-feather="log-out"></i> Logout</a>
+                </li>
+                <li id="liDelete"><a href="daftar.html">Delete Account</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- search button -->
+      <div class="navbar-extra">
+        <!-- <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a> -->
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <!-- search button -->
+      <!-- search form start -->
+
+      <!-- search form end -->
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Let's Start <span>Donation</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor nemo
+          assumenda, quaerat asperiores excepturi necessitatibus fugiat
+          accusantium atque laudantium voluptatibus!
+        </p>
+        <a href="#menu" class="cta">Donate Now</a>
+      </main>
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- About Section Start  
+    shortcut section#about.about-->
+    <section id="about" class="about">
+      <h2><span>About </span>Us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/2.jpg" alt="About Us" />
+        </div>
+        <div class="content">
+          <h3>We Rise By Lifting Others</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad
+            fugit hic facere minus! Saepe recusandae voluptatibus sed velit
+            ratione.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, odit
+            aliquid minima illo dicta cumque ab id? In, aliquid mollitia fuga
+            debitis obcaecati molestiae iusto eveniet consequuntur
+            necessitatibus voluptatibus saepe.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End   -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Our </span>Service</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+        perferendis voluptates deserunt dolor nesciunt pariatur!
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <a href="zakat.html">
+            <img
+              src="/img/mini logo/Untitled-1.jpg"
+              alt="zakat"
+              class="menu-card-img"
+            />
+          </a>
+          <h3 class="menu-card-title">Zakat</h3>
+          <p class="menu-card-price">Pay</p>
+        </div>
+        <div class="menu-card">
+          <a href="Infak.html">
+            <img
+              src="/img/mini logo/Untitled-1.jpg"
+              alt="zakat"
+              class="menu-card-img"
+            />
+          </a>
+          <h3 class="menu-card-title">Infak</h3>
+          <p class="menu-card-price">Pay</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="/img/mini logo/Untitled-1.jpg"
+            alt="zakat"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">Sedekah</h3>
+          <p class="menu-card-price">Pay</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact </span>Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+        perferendis voluptates deserunt dolor nesciunt pariatur!
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8121587688943!2d106.97108567590045!3d-6.418176793572772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699536cb763d9d%3A0xc04c9894beac8b1c!2sPuri%20harmoni%201%20Residence!5e0!3m2!1sen!2sid!4v1713369904471!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End   -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#">
+          <i data-feather="instagram"></i>
+        </a>
+        <a href="#">
+          <i data-feather="facebook"></i>
+        </a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Rafi</a>. &copy;2024</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+  </body>
+  <script>
+    window.onload = (async) => {
+      const id = sessionStorage.getItem("userId");
+      // console.log(id);
+      if (id) {
+        document.getElementById("liMasuk").style.display = "none";
+      } else {
+        document.getElementById("liUser").style.display = "none";
+      }
+    };
+
+    $("#liLogout").click(function () {
+      sessionStorage.removeItem("userId");
+    });
+  </script>
+</html>

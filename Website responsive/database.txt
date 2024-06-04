@@ -1,0 +1,2 @@
+nama app : C donation (portal donasi)
+table : users,donation_category,users_donation.
